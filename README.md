@@ -1,6 +1,6 @@
 # lomit
 
-Lightweight version of omitting properties from an object.
+Lightweight function for omitting properties from an object.
 
 ## Install
 
@@ -24,3 +24,7 @@ import omit from 'lomit';
 omit({name: '', title: ''}, ['title']);
 
 ```
+
+## License
+
+[MIT](LICENSE) © [Ryan Hefner](https://www.ryanhefner.com)
