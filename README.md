@@ -4,7 +4,7 @@
 [![NPM](https://img.shields.io/npm/l/lomit?style=flat-square)](LICENSE)
 [![npm](https://img.shields.io/npm/dt/lomit?style=flat-square)](https://www.npmjs.com/package/lomit)
 ![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/lomit?style=flat-square)
-[![CircleCI](https://circleci.com/gh/ryanhefner/lomit.svg?style=flat-square)](https://circleci.com/gh/ryanhefner/lomit)
+![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/lomit?style=flat-square)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ryanhefner/lomit?style=flat-square)
 
 Lightweight function for omitting properties from an object.
