@@ -11,13 +11,13 @@ Lightweight function for omitting properties from an object.
 
 ## Install
 
-Via NPM
+Via [npm](https://npmjs.com/package/lomit)
 
 ```sh
 npm install --save lomit
 ```
 
-Via Yarn
+Via [Yarn](https://yarnpkg.com/package/lomit)
 
 ```sh
 yarn add lomit
