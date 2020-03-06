@@ -32,7 +32,7 @@ omit({name: '', title: ''}, ['title']);
 ```
 
 ```sh
-Output: {title: ''}
+Output: {name: ''}
 ```
 
 ### Deep omits (*__New!__*)
@@ -40,11 +40,11 @@ Output: {title: ''}
 ```js
 import omit from 'lomit';
 
-omit({name: '', title: '', location: { city: '', state: '' }}, ['name', 'location.city']);
+omit({name: '', title: '', location: { city: '', state: '' }}, ['title', 'location.city']);
 ```
 
 ```sh
-Output: {title: '', location: { state: '' }}
+Output: {name: '', location: { state: '' }}
 ```
 
 ## License
