@@ -9,6 +9,20 @@
   },
   "homepage": "https://github.com/ryanhefner/lomit#readme",
   "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ryanhefner"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/ryanhefner"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/ryanhefner"
+    }
+  ],
   "keywords": [
     "omit",
     "lodash"
@@ -25,6 +39,7 @@
   "main": "index.js",
   "module": "es/index.js",
   "jsnext:main": "src/index.js",
+  "types": "types",
   "scripts": {
     "clean": "rm -f index.js && rm -rf es && rm -rf umd",
     "prebuild": "npm run clean",
@@ -33,6 +48,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "node ./tools/build.js",
     "push-release": "git push origin master && git push --tags",
+    "dtslint": "dtslint types",
     "test": "jest"
   },
   "devDependencies": {
@@ -45,6 +61,7 @@
     "babel-plugin-dev-expression": "^0.2.1",
     "babel-plugin-external-helpers": "^6.22.0",
     "coveralls": "^3.0.9",
+    "dtslint": "^4.0.0",
     "greenkeeper-lockfile": "^1.15.1",
     "gzip-size": "^5.1.1",
     "jest": "^25.1.0",
@@ -55,7 +72,8 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-uglify": "^6.0.4",
-    "rollup-watch": "^4.3.1"
+    "rollup-watch": "^4.3.1",
+    "typescript": "^4.0.2"
   },
   "jest": {
     "collectCoverage": true,
