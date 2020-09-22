@@ -1,3 +1,5 @@
-declare function lomit(obj: any, props: string[]): any;
+// TypeScript Version: 4.0
 
-export = lomit;
+export = omit;
+
+declare function omit(obj: any, props: string[]): any;
