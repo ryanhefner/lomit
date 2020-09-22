@@ -1,4 +1,4 @@
-export default function omit(obj = {}, props = []) {
+export function omit(obj = {}, props = []) {
   obj = {...obj};
 
   props.forEach((prop) => {
