@@ -1,4 +1,4 @@
-import omit from './index';
+import { omit } from './index';
 
 const testObject = {
   name: 'Ryan Hefner',
