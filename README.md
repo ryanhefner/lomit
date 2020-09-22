@@ -26,7 +26,7 @@ yarn add lomit
 ## How to use
 
 ```js
-import omit from 'lomit';
+import { omit } from 'lomit';
 
 omit({name: '', title: ''}, ['title']);
 ```
@@ -38,7 +38,7 @@ Output: {name: ''}
 ### Deep omits (*__New!__*)
 
 ```js
-import omit from 'lomit';
+import { omit } from 'lomit';
 
 omit({name: '', title: '', location: { city: '', state: '' }}, ['title', 'location.city']);
 ```
