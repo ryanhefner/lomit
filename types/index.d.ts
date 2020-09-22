@@ -1,3 +1,3 @@
-declare namespace lomit {
-  function omit(obj: any, props: string[]): any;
-}
+declare function lomit(obj: any, props: string[]): any;
+
+export = lomit;
