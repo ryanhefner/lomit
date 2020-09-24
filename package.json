@@ -51,6 +51,9 @@
     "dtslint": "dtslint types",
     "test": "jest"
   },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2"
+  },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
@@ -82,8 +85,5 @@
       "src/**/*.js",
       "!src/**/*.test.js"
     ]
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.11.2"
   }
 }
