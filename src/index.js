@@ -1,4 +1,4 @@
-export function omit(obj = {}, props = []) {
+export const omit = (obj = {}, props = []) => {
   obj = {...obj};
 
   props.forEach((prop) => {
@@ -16,4 +16,4 @@ export function omit(obj = {}, props = []) {
   });
 
   return obj;
-}
+};
